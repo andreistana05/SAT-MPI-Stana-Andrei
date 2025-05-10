@@ -1,0 +1,241 @@
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 14:47:10
+
+FORMULA STATISTICS:
+- Clauses: 5
+- Variables: 3
+- Avg clause length: 1.60
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+CDCL            0.119700     715.96          Formula is satisfiable
+Assignment sample: {2: True...
+
+TIMING COMPARISON:
+- Fastest solver: CDCL (0.119700s)
+- Slowest solver: CDCL (0.119700s)
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 14:47:32
+
+FORMULA STATISTICS:
+- Clauses: 8
+- Variables: 5
+- Avg clause length: 3.25
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+CDCL            0.118057     716.11          Formula is satisfiable
+Assignment sample: {1: True...
+
+TIMING COMPARISON:
+- Fastest solver: CDCL (0.118057s)
+- Slowest solver: CDCL (0.118057s)
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 14:47:48
+
+FORMULA STATISTICS:
+- Clauses: 9
+- Variables: 6
+- Avg clause length: 3.78
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+CDCL            0.121077     716.12          Formula is satisfiable
+Assignment sample: {1: True...
+
+TIMING COMPARISON:
+- Fastest solver: CDCL (0.121077s)
+- Slowest solver: CDCL (0.121077s)
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 14:49:57
+
+FORMULA STATISTICS:
+- Clauses: 10
+- Variables: 7
+- Avg clause length: 3.50
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+CDCL            60.000000    716.09          Timeout after 60 seconds      
+
+TIMING COMPARISON:
+- Fastest solver: CDCL (60.000000s)
+- Slowest solver: CDCL (60.000000s)
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 14:54:22
+
+FORMULA STATISTICS:
+- Clauses: 50
+- Variables: 10
+- Avg clause length: 6.10
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+Resolution      60.000000    722.88          Timeout after 60 seconds      
+Davis-Putnam    0.109294     31.44           Formula is satisfiable        
+DPLL            60.000000    31.12           Timeout after 60 seconds      
+PySAT           0.107980     31.00           Found 1 solution(s)
+First assignment sample: {1: F...
+Hybrid          60.000000    31.02           Timeout after 60 seconds      
+
+TIMING COMPARISON:
+- Fastest solver: PySAT (0.107980s)
+- Slowest solver: Resolution (60.000000s)
+- Speed difference: 555.66x
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 14:56:05
+
+FORMULA STATISTICS:
+- Clauses: 250
+- Variables: 25
+- Avg clause length: 11.11
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+PySAT           0.122841     732.91          No solutions found            
+Hybrid          0.101466     41.15           No solutions found            
+
+TIMING COMPARISON:
+- Fastest solver: Hybrid (0.101466s)
+- Slowest solver: PySAT (0.122841s)
+- Speed difference: 1.21x
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 15:00:00
+
+FORMULA STATISTICS:
+- Clauses: 91
+- Variables: 20
+- Avg clause length: 3.00
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+Resolution      60.000000    722.65          Timeout after 60 seconds      
+Davis-Putnam    0.215704     31.29           Formula is satisfiable        
+PySAT           0.103882     31.00           Found 1 solution(s)
+First assignment sample: {1: F...
+Hybrid          60.000000    31.01           Timeout after 60 seconds      
+
+TIMING COMPARISON:
+- Fastest solver: PySAT (0.103882s)
+- Slowest solver: Resolution (60.000000s)
+- Speed difference: 577.58x
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 15:04:18
+
+FORMULA STATISTICS:
+- Clauses: 79
+- Variables: 50
+- Avg clause length: 2.99
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+Davis-Putnam    0.226965     722.42          Formula is unsatisfiable      
+PySAT           0.103564     31.20           No solutions found            
+Hybrid          60.000000    30.90           Timeout after 60 seconds      
+
+TIMING COMPARISON:
+- Fastest solver: PySAT (0.103564s)
+- Slowest solver: Hybrid (60.000000s)
+- Speed difference: 579.35x
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 15:05:00
+
+FORMULA STATISTICS:
+- Clauses: 80
+- Variables: 15
+- Avg clause length: 8.32
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+Resolution      0.311819     722.47          Formula is unsatisfiable      
+Davis-Putnam    0.102626     31.21           Formula is unsatisfiable      
+DPLL            0.100446     30.91           No solutions found            
+CDCL            0.113250     30.81           Formula is unsatisfiable      
+PySAT           0.101863     30.72           No solutions found            
+Hybrid          0.111734     30.79           No solutions found            
+
+TIMING COMPARISON:
+- Fastest solver: DPLL (0.100446s)
+- Slowest solver: Resolution (0.311819s)
+- Speed difference: 3.10x
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 15:05:07
+
+FORMULA STATISTICS:
+- Clauses: 80
+- Variables: 15
+- Avg clause length: 8.32
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+Davis-Putnam    0.108063     30.46           Formula is unsatisfiable      
+
+TIMING COMPARISON:
+- Fastest solver: Davis-Putnam (0.108063s)
+- Slowest solver: Davis-Putnam (0.108063s)
+================================================================================
+
+================================================================================
+SAT SOLVER COMPARISON RESULTS
+Generated at: 2025-05-10 15:12:49
+
+FORMULA STATISTICS:
+- Clauses: 100
+- Variables: 20
+- Avg clause length: 7.36
+
+SOLVER PERFORMANCE:
+Solver          Time (s)     Memory (KB)     Result                        
+--------------------------------------------------------------------------------
+Resolution      60.000000    722.75          Timeout after 60 seconds      
+Davis-Putnam    0.103616     31.36           Formula is satisfiable        
+DPLL            60.000000    31.07           Timeout after 60 seconds      
+CDCL            60.000000    30.96           Timeout after 60 seconds      
+PySAT           0.105103     30.88           Found 1 solution(s)
+First assignment sample: {1: F...
+Hybrid          60.000000    31.06           Timeout after 60 seconds      
+
+TIMING COMPARISON:
+- Fastest solver: Davis-Putnam (0.103616s)
+- Slowest solver: Resolution (60.000000s)
+- Speed difference: 579.06x
+================================================================================
